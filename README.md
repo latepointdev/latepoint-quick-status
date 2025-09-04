@@ -2,6 +2,8 @@
 
 A WordPress plugin addon for LatePoint that adds a toggle button to enable/disable services directly from the services list.
 
+![image](screenshots/quick-status-2.gif)
+
 ## Features
 
 - **Quick Toggle**: Enable/disable services with a single click

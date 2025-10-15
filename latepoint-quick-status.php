@@ -2,7 +2,7 @@
 /**
  * Plugin Name: LatePoint Addon - Quick Status
  * Description: Adds a toggle button to enable/disable services directly from the list.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Author: KNYN.DEV
  * Author URI: https://knyn.dev
  * Plugin URI: https://knyn.dev
@@ -27,7 +27,7 @@ if ( ! class_exists( 'LatePointAddonQuickStatus' ) ):
 		 * Addon version.
 		 *
 		 */
-		public $version = '1.0.0';
+		public $version = '1.1.0';
 		public $db_version = '1.0.0';
 		public $addon_name = 'latepoint-quick-status';
 

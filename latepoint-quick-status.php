@@ -5,7 +5,7 @@
  * Version: 1.1.0
  * Author: KNYN.DEV
  * Author URI: https://knyn.dev
- * Plugin URI: https://knyn.dev
+ * Plugin URI: https://latepoint.dev
  * Text Domain: latepoint-quick-status
  * Domain Path: /languages
  */

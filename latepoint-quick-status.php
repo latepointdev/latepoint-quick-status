@@ -170,6 +170,15 @@ if ( ! class_exists( 'LatePointAddonQuickStatus' ) ):
 
 endif;
 
+if (!defined('ABSPATH')) exit;
+
+// Include Latepoint Dev Updater
+require_once plugin_dir_path(__FILE__) . '/lib/controllers/lpdu-quick-stauts.php';
+
+// Initialize updater
+new LPDU_Updater(__FILE__, 'latepoint-dev', '/lib/controllers/lpdu-quick-stauts.php');
+
+
 // Check if LatePoint is active before initializing
 function latepoint_quick_status_is_latepoint_active() {
 	return in_array('latepoint/latepoint.php', get_option('active_plugins', array())) || 
